@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    .game-main{
+        font-size: 12px;
+    }
+    
+    .game-main .description{
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    
+    .button{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
+    .title-game{
+        font-size: 16;
+    }
+    .description-game{
+        font-size: 12;
+    }
+}
+
+@media screen and (min-width:1000px){
+    
+    header .container{
+        display: flex;
+    }
+
+    .game-main .description{
+        width: 500px;
+    }
+}
